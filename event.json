@@ -1,0 +1,12 @@
+{
+    "data": [
+      {
+        "message": "Ola",
+        "phone_number": "+55212312"
+      },
+      {
+        "message": "Boa noite",
+        "phone_number": "+312312"
+      }
+    ]
+}
