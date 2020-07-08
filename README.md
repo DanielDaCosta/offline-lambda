@@ -4,7 +4,7 @@ Testing an AWS Lambda offline.
 Repo for testing a lambda function locally.
 
 # Details
-- event.json: file that containt lambda *event*
+- event.json: file that contains the lambda *event*
 - lambda/: lambda code
 
 # Usage
