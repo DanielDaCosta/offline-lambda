@@ -9,7 +9,9 @@ Repo for testing a lambda function locally.
 
 # Usage
 Command for invoking lambda.Starting the Docker container corresponds to an AWS Lambda cold start.
-```docker-compose run lambda lambda.handler.lambda_handler "$(cat event.json)"```
+```
+docker-compose run lambda lambda.handler.lambda_handler "$(cat event.json)"
+```
 
 Command for keeping the container of our Lambda function running: you can make several consecutive calls quickly without waiting for the “cold start” times.
 ```
