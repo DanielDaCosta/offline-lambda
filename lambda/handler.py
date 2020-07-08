@@ -38,4 +38,6 @@ def lambda_handler(event, context):
     for message in event['data']:
         phone_number = message['phone_number']
         body_message = message['message']
-        send_sms(phone_number, body_message)
+        print(phone_number, body_message)
+        # send_sms(phone_number, body_message)
+    return
