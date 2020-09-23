@@ -18,7 +18,7 @@ Command for keeping the container of our Lambda function running: you can make s
 docker-compose run -e DOCKER_LAMBDA_STAY_OPEN=1 lambda lambda.handler.lambda_handler "$(cat event.json)"
 ```
 
-# Acknowledgments
+# References & Acknowledgments
 Special Thanks for Vittorio Nardone for the medium post:
 - https://levelup.gitconnected.com/aws-lambda-offline-development-with-docker-6a8cf8b186e7
 - https://hub.docker.com/r/lambci/lambda/
